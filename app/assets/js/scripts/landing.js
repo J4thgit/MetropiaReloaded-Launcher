@@ -207,7 +207,7 @@ const refreshMojangStatuses = async function(){
         }
 
     } catch (err) {
-        loggerLanding.warn('Unable to refresh Mojang service status.')
+        loggerLanding.warn('Impossible de rafraichir les status des services de Mojang.')
         loggerLanding.debug(err)
     }
     
@@ -217,17 +217,17 @@ const refreshMojangStatuses = async function(){
 }
 
 const refreshServerStatus = async function(fade = false){
-    loggerLanding.log('Refreshing Server Status')
+    loggerLanding.log('Rafraichissement des status')
     const serv = DistroManager.getDistribution().getServer(ConfigManager.getSelectedServer())
 
-    let pLabel = 'SERVER'
-    let pVal = 'OFFLINE'
+    let pLabel = 'SERVEUR'
+    let pVal = 'HORS-LIGNE'
 
     try {
         const serverURL = new URL('my://' + serv.getAddress())
         const servStat = await ServerStatus.getStatus(serverURL.hostname, serverURL.port)
         if(servStat.online){
-            pLabel = 'PLAYERS'
+            pLabel = 'JOUEURS'
             pVal = servStat.onlinePlayers + '/' + servStat.maxPlayers
         }
 

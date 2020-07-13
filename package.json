@@ -1,9 +1,9 @@
 {
-  "name": "helioslauncher",
-  "version": "1.7.0",
-  "productName": "Helios Launcher",
-  "description": "Modded Minecraft Launcher",
-  "author": "Daniel Scalzi (https://github.com/dscalzi/)",
+  "name": "metropiareloadedlauncher",
+  "version": "1.12.2",
+  "productName": "Metropia Reloaded Launcher",
+  "description": "NetWork Minecraft Moddé",
+  "author": "Metropia & Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
   "homepage": "https://github.com/dscalzi/HeliosLauncher",
   "bugs": {
@@ -47,6 +47,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dscalzi/HeliosLauncher.git"
+    "url": "git+https://github.com/J4thgit/MetropiaReloaded-Launcher.git"
   }
 }
