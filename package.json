@@ -1,13 +1,13 @@
 {
   "name": "metropiareloadedlauncher",
-  "version": "1.12.2",
+  "version": "0.1.1",
   "productName": "Metropia Reloaded Launcher",
   "description": "NetWork Minecraft Moddé",
   "author": "Metropia & Daniel Scalzi (https://github.com/dscalzi/)",
   "license": "UNLICENSED",
-  "homepage": "https://github.com/dscalzi/HeliosLauncher",
+  "homepage": "https://github.com/J4thgit/MetropiaReloaded-Launcher/",
   "bugs": {
-    "url": "https://github.com/dscalzi/HeliosLauncher/issues"
+    "url": "https://github.com/J4thgit/MetropiaReloaded-Launcher/issues"
   },
   "private": true,
   "main": "index.js",
