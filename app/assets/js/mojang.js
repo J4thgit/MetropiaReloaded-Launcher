@@ -19,37 +19,37 @@ const statuses = [
     {
         service: 'sessionserver.mojang.com',
         status: 'grey',
-        name: 'Multiplayer Session Service',
+        name: 'API: Multiplayer session',
         essential: true
     },
     {
         service: 'authserver.mojang.com',
         status: 'grey',
-        name: 'Authentication Service',
+        name: 'API: Authentificator server',
         essential: true
     },
     {
         service: 'textures.minecraft.net',
         status: 'grey',
-        name: 'Minecraft Skins',
+        name: 'API: Skins',
         essential: false
     },
     {
         service: 'api.mojang.com',
         status: 'grey',
-        name: 'Public API',
+        name: 'API: Public',
         essential: false
     },
     {
         service: 'minecraft.net',
         status: 'grey',
-        name: 'Minecraft.net',
+        name: 'Web: Minecraft.net',
         essential: false
     },
     {
         service: 'account.mojang.com',
         status: 'grey',
-        name: 'Mojang Accounts Website',
+        name: 'Web: Mojang Account',
         essential: false
     }
 ]
