@@ -681,7 +681,7 @@ function dlAsync(login = true){
                     if(SERVER_JOINED_REGEX.test(data)){
                         DiscordWrapper.updateDetails('Chargement du realms!')
                     } else if(GAME_JOINED_REGEX.test(data)){
-                        DiscordWrapper.updateDetails('Vous naviguez en direction de Metropia!')
+                        DiscordWrapper.updateDetails('=========================')
                     }
                 }
 
